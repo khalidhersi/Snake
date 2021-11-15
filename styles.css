@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20, 5%);
+    background-color: #fdfdfd;
+    width: 90vmin;
+    height: 90vmin;
+}
+
+.snakeBody {
+    background-color:greenyellow;
+    border: 1px solid black;
+    grid-column: 5 / 6 ;
+    grid-row: 5 / 5 ;
+}
+
+.item {
+    background-color: rgb(70, 88, 255);
+    border: 1px solid black;
+    grid-column: 7 / 8 ;
+    grid-row: 5 / 5 ;
+}
